@@ -6,6 +6,23 @@ An open-source Codex skill for Apple Design Award-level iOS product direction, e
 
 > Independent community project. Not affiliated with or endorsed by Apple Inc. or OpenAI.
 
+## Before & After
+
+The same iOS mood-journaling brief, approached with and without the skill:
+
+![Before and after comparison of the Still iOS app](assets/before-after.png)
+
+| Without the skill | With `ios-design-art-director` |
+| --- | --- |
+| Features compete for attention | One meaningful action defines the experience |
+| Dashboard cards and upgrade chrome dominate | Content and emotional context lead the hierarchy |
+| Generic gradients, shadows, and crowded controls | Restrained materials, semantic color, and native behavior |
+| Accessibility and edge states are deferred | Legibility, touch comfort, agency, and resilience shape the concept |
+
+**Design thesis:** Help a busy person close the day with one honest sentence, creating a quiet sense of reflection rather than another performance dashboard.
+
+**Predictive concept score:** 52/100 before → 88/100 after. This is an illustrative art-direction example, not a measured usability result.
+
 ## 简体中文
 
 `ios-design-art-director` 是一个面向原生 iPhone 与 iPad 体验的 Codex 技能。它让 Codex 以产品设计师和艺术总监的视角工作，不只判断界面是否“好看”，还会审视产品目的、信息架构、原生交互、视觉系统、情绪表达、无障碍、隐私责任与完整状态。
