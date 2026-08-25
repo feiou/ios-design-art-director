@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS Design Art Director"
+  short_description: "Apple-level iOS product design and critique"
+  default_prompt: "Use $ios-design-art-director to create or review an iOS experience at Apple Design Award standards."
