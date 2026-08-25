@@ -1,6 +1,6 @@
 # Apple Design Intelligence Baseline
 
-Updated 2026-08-10 from official Apple sources. Use this as a synthesis, not a substitute for checking current guidance.
+Updated 2026-08-10 from official Apple sources. Use this as a synthesis, not a substitute for checking current, task-relevant guidance. The links below are starting points; cite the specific official page that supports a material claim.
 
 ## Official Sources
 

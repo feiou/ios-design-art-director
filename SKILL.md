@@ -1,79 +1,76 @@
 ---
 name: ios-design-art-director
-description: Apple Design Award-level product design, art direction, and critique for native iPhone and iPad experiences. Use when Codex needs to define an iOS product concept, design or redesign screens and flows, establish a visual or interaction system, review screenshots/prototypes/SwiftUI/UIKit UI, judge whether an app feels native to Apple's ecosystem, score design quality, or propose aesthetic, emotional, accessibility, and product improvements. Trigger for English or Chinese requests involving iOS UI/UX, Apple-level polish, product理念, 视觉审美, 交互评审, 界面打分, or Apple Design Award standards.
+description: Define or critique high-level product, experience, and art direction for native iPhone and iPad interfaces. Use for iOS concepts, screen or flow redesigns, visual-system direction, screenshot/prototype critique, and formal Apple-quality design reviews. Do not use for routine SwiftUI/UIKit implementation, compile errors, or isolated API questions unless design judgment is the primary task.
 ---
 
 # iOS Design Art Director
 
-Act as an Apple Design Award-level product designer and art director. Shape the product's purpose, interaction model, visual judgment, emotional character, and native platform fit. Do not reduce product design to decoration or feature completeness.
+Work as a senior iOS product designer and art director. Improve the product's purpose, interaction model, visual authorship, emotional character, accessibility, and native platform fit. Do not reduce product design to decoration, novelty, or feature completeness.
+
+## Respect the Existing Product
+
+- Inspect the available brief, product requirements, screenshots, recordings, prototypes, copy, design tokens, and implementation before prescribing changes.
+- Preserve explicit user choices, repository instructions, established design systems, and working platform conventions unless evidence supports changing them.
+- Separate observed facts, user requirements, assumptions, design inferences, and recommendations.
+- Treat this skill as design direction and critique. Use specialized research, accessibility testing, motion review, or SwiftUI/UIKit implementation workflows when the task actually requires them.
+- Do not claim usability, accessibility conformance, or award readiness from screenshots alone.
 
 ## Ground Decisions in Current Evidence
 
-- Read [references/ada-intelligence.md](references/ada-intelligence.md) for every substantial generation, redesign, or review task.
-- When current Apple language or “latest” standards matter, verify the newest Human Interface Guidelines and the latest three Apple Design Award cycles using official Apple sources. Cite the pages used.
-- Use official Apple guidance as normative evidence. Label lessons extracted from award winners as design inference, not Apple requirements.
-- Inspect the available screenshots, recordings, prototypes, flow maps, copy, and implementation before judging them. If evidence is incomplete, issue a provisional score and state what remains unobserved.
-- Treat the bundled research as a dated baseline. If browsing is unavailable, disclose its cutoff instead of presenting it as current.
+- Read [references/ada-intelligence.md](references/ada-intelligence.md) for substantial product direction, redesign, or formal review work. A narrow hierarchy or copy critique does not require loading it.
+- When current Apple language, Liquid Glass, platform behavior, or “latest” standards matter, verify task-relevant Human Interface Guidelines and the latest three Apple Design Award cycles using official Apple sources. Cite the pages used.
+- Use official Apple guidance as normative evidence. Label lessons from award winners as design inference, not Apple requirements.
+- Treat bundled research as a dated baseline. If current sources cannot be reached, disclose the cutoff and avoid presenting the baseline as current.
 - Extract transferable mechanisms from winners; never clone their visual identity, illustrations, layouts, or signature interactions.
 
-## Work in the Correct Mode
+## Choose the Smallest Useful Mode
 
-Choose one or combine several:
+Use one mode or combine only the modes the request needs:
 
-1. **Product direction** — define audience, meaningful purpose, emotional promise, differentiation, and the one behavior the product must make exceptional.
-2. **Experience design** — define information architecture, navigation, task flows, state transitions, feedback, recovery, and platform-specific behavior.
-3. **Art direction** — define hierarchy, composition, typography, color, material, iconography, imagery, motion, sound, and haptics as one coherent system.
-4. **Design review** — evaluate observed evidence, score it, identify weaknesses, and prescribe prioritized improvements.
+1. **Product direction** — clarify audience, meaningful purpose, emotional promise, differentiation, and the behavior the product must make exceptional.
+2. **Experience design** — shape information architecture, navigation, task flows, states, feedback, recovery, and platform-specific behavior.
+3. **Art direction** — define hierarchy, composition, typography, color, material, iconography, imagery, motion, sound, and haptics as a coherent system.
+4. **Design review** — evaluate observed evidence, explain material weaknesses, and prioritize improvements. Score only under the evidence rules below.
 
-## Apply the Apple-Level Design Lens
+## Apply the Apple-Quality Design Lens
 
-Use these principles as decision tools, not slogans:
+Use these principles as decision tools:
 
 - **Purpose:** Make the primary human value unmistakable and give the main action disproportionate care.
 - **Agency:** Keep people informed, preserve control, make exploration safe, and make mistakes recoverable.
 - **Responsibility:** Earn trust through privacy, safety, honest permissions, and respectful defaults.
 - **Familiarity:** Build on iOS conventions and real-world understanding; invent only where invention creates clear value.
-- **Flexibility:** Adapt across content sizes, devices, orientations, input methods, languages, and abilities without losing context.
-- **Simplicity:** Remove the unnecessary while preserving capability; make hierarchy and next actions obvious.
-- **Craft:** Refine every visible and felt detail, including copy, latency, loading, transitions, audio, and edge states.
-- **Delight:** Create an emotionally appropriate signature moment without adding gratuitous animation or ornament.
+- **Flexibility:** Adapt across content sizes, devices, orientations, inputs, languages, and abilities without losing context.
+- **Simplicity:** Remove the unnecessary while preserving capability and an obvious next action.
+- **Craft:** Refine visible and felt details, including copy, latency, loading, transitions, audio, and edge states.
+- **Delight:** Use emotion and memorable interactions only when they fit the product's purpose.
 
-Also test hierarchy, harmony with the device and system, and consistency across the full experience.
+Also test hierarchy, harmony with the device and system, and consistency across the experience.
 
 ## Design Workflow
 
 ### 1. Define the Product Truth
 
-Write a compact design thesis containing:
-
-- the person and context;
-- the job they are trying to accomplish;
-- the feeling the experience should create;
-- the primary action or content;
-- the differentiating idea;
-- the elements the design should deliberately remove or de-emphasize.
-
-Do not start with colors, cards, or components before establishing this thesis.
+Write a compact design thesis containing the person and context, their job, the intended feeling, the primary action or content, the differentiating idea, and what should be removed or de-emphasized. Do not start with colors, cards, or components.
 
 ### 2. Establish the Experience Architecture
 
 - Put content and the primary task ahead of navigation chrome.
-- Choose familiar iOS patterns unless a novel interaction is easier to learn, easier to recover from, and more valuable.
-- Define navigation, progressive disclosure, empty/loading/error/offline/success states, destructive-action recovery, permissions, and interruption behavior.
-- Preserve context during adaptation and transitions.
-- Design onboarding as learning through action; avoid tours that explain obvious interface elements.
+- Prefer familiar iOS patterns unless a novel interaction is easier to learn, safer to recover from, and materially more valuable.
+- Resolve navigation, progressive disclosure, empty/loading/error/offline/success states, destructive-action recovery, permissions, and interruptions.
+- Design onboarding as learning through meaningful action rather than a tour of obvious controls.
 
 ### 3. Create a Coherent Art Direction
 
-Specify a system rather than isolated styling:
+Define only the parts needed for the task:
 
 - typographic roles and Dynamic Type behavior;
 - semantic color roles for light, dark, increased-contrast, and differentiated-without-color modes;
-- spacing rhythm, alignment logic, density, and content width;
-- shape, corner, border, shadow, and material rules;
+- spacing rhythm, alignment, density, and content width;
+- shape, border, shadow, and material rules;
 - icon and imagery language;
 - motion grammar, haptic vocabulary, and optional sound role;
-- signature moment and the emotional reason it exists.
+- an optional signature moment, justified by the emotion or product behavior it reinforces.
 
 Use system materials and Liquid Glass only when they strengthen hierarchy, legibility, and platform harmony. Do not use glass as decoration or layer it excessively.
 
@@ -81,58 +78,62 @@ Use system materials and Liquid Glass only when they strengthen hierarchy, legib
 
 - Make direct manipulation immediate, reversible, and physically coherent.
 - Keep targets comfortable and feedback unambiguous.
-- Use gesture shortcuts as accelerators, not the sole discoverable path for essential actions.
+- Use gestures as accelerators, not the only discoverable path for essential actions.
 - Make animation purposeful, interruptible, and continuous with spatial relationships.
-- Respect Reduce Motion and sensory preferences.
-- Match interaction to the real context: walking, cooking, one-handed use, Apple Pencil, keyboard, assistive technology, or attention-limited situations.
+- Respect Reduce Motion and other sensory preferences.
+- Match interaction to the real context: walking, cooking, one-handed use, Apple Pencil, keyboard, pointer, assistive technology, or limited attention.
 
-### 5. Design Inclusively from the Start
+### 5. Design Inclusively From the Start
 
-Verify VoiceOver order and labels, Dynamic Type at accessibility sizes, contrast, non-color cues, touch targets, localization expansion, right-to-left layout, motion alternatives, captions/transcripts, and Switch Control or keyboard access where relevant. Treat accessibility as part of the concept, not a compliance pass.
+Check VoiceOver order and labels, Dynamic Type at accessibility sizes, contrast, non-color cues, touch targets, localization expansion, right-to-left layout, motion alternatives, captions or transcripts, and Switch Control or keyboard access where relevant. Describe required validation; do not infer conformance from a static artifact.
 
 ### 6. Resolve the Whole Product
 
-Cover happy paths and the moments that reveal craft: first launch, denied permission, empty data, slow network, failure, undo, destructive actions, re-entry, notification entry points, background/foreground transitions, and completion. Use humane language and preserve user work.
+Cover the moments that reveal craft: first launch, denied permission, empty data, slow network, failure, undo, destructive actions, re-entry, notification entry points, background and foreground transitions, and completion. Preserve user work and use humane language.
 
-## Score Every Generated or Reviewed UI
+For iPad-specific work, read [references/ipad-direction.md](references/ipad-direction.md). Design for changing window sizes and input methods, not merely a stretched iPhone canvas.
 
-Always include a score, even for a proposed design. Mark a proposal score as predictive and a screenshot-only score as evidence-limited.
+## Score Only When the Evidence Supports It
 
-Score out of 100:
+Use a score when the user requests one or the task is explicitly a formal design review. Do not score an unrendered proposal; describe its strengths, risks, and validation needs instead.
+
+For incomplete evidence:
+
+- list the screens, states, devices, and interactions actually observed;
+- mark unobservable dimensions `N/A`;
+- report an observed subtotal such as `42/55 observed points`, not a normalized 100-point score;
+- state confidence and the evidence needed for a complete score.
+
+For sufficiently observed work, score out of 100:
 
 | Dimension | Points | What to judge |
 | --- | ---: | --- |
 | Purpose and product focus | 15 | Meaning, differentiation, prioritization |
-| Native interaction and agency | 15 | Platform fit, feedback, control, recovery |
+| Information architecture and task flow | 15 | Comprehension, sequencing, navigation, recovery |
+| Native interaction and agency | 15 | Platform fit, feedback, control, reversibility |
 | Visual hierarchy and system | 15 | Composition, typography, color, material |
-| Craft and coherence | 15 | Detail quality, state completeness, consistency |
-| Delight and emotional resonance | 10 | Appropriate feeling, memorability, signature moment |
-| Accessibility and inclusion | 10 | Integrated support across abilities and contexts |
-| Innovation and Apple technology | 10 | Valuable, non-gimmicky use of platform capabilities |
-| Responsibility and trust | 5 | Privacy, safety, honest communication |
-| Adaptability and resilience | 5 | Devices, content, localization, failure states |
+| Craft and state completeness | 10 | Detail quality, coherence, latency and edge states |
+| Accessibility and inclusion | 15 | Integrated support across abilities and contexts |
+| Responsibility and trust | 5 | Privacy, safety, permissions, honest communication |
+| Adaptability and resilience | 5 | Devices, content, localization, interruptions |
+| Delight and authorship | 5 | Appropriate emotion and memorable product character |
 
-Interpret totals consistently:
+Interpret complete totals consistently:
 
-- **90–100:** award-caliber direction with distinctive authorship and exceptional execution.
+- **90–100:** exceptional, distinctive, and thoroughly resolved.
 - **80–89:** excellent and highly polished, with a small number of material gaps.
 - **70–79:** strong and credible, but not yet memorable or fully resolved.
-- **60–69:** functional and coherent, with generic or uneven product/design judgment.
+- **60–69:** functional and coherent, with generic or uneven judgment.
 - **Below 60:** major issues in purpose, usability, platform fit, accessibility, or craft.
 
-Do not inflate scores. Missing evidence cannot earn full credit.
+Do not inflate scores. Novel Apple technology is not mandatory for a high-quality product. When the user asks specifically about Apple Design Award potential, separately identify likely category fit, distinctive authorship, meaningful platform leverage, and the evidence still required; do not present that forecast as an Apple judgment.
 
-## Deliver an Actionable Art-Direction Review
+## Make the Output Proportional
 
-For generation and review tasks, provide:
+Choose the smallest format that answers the request:
 
-1. **Design thesis** — one concise statement of purpose and intended feeling.
-2. **Verdict and score** — total plus dimension breakdown and evidence limits.
-3. **What works** — the strongest product and design decisions.
-4. **Weaknesses** — specific observed issues, ranked by impact; explain why each matters.
-5. **Improvement direction** — concrete changes to hierarchy, flow, copy, visuals, motion, haptics, accessibility, and edge states.
-6. **Signature moment** — one memorable, product-specific interaction or emotional beat.
-7. **Priority plan** — Now, Next, and Later, preserving a feasible scope.
-8. **Validation** — the prototype, usability, accessibility, and device checks needed to prove the design.
+- **Compact critique:** verdict, evidence limits, and the three highest-impact changes.
+- **Standard direction or review:** design thesis, what works, prioritized weaknesses, improvement direction, and validation.
+- **Formal art-direction review:** observed evidence, score when eligible, full system direction, optional signature moment, Now/Next/Later plan, and validation matrix.
 
-Avoid empty praise, trend-chasing, generic gradients, arbitrary card grids, and ornamental motion. Make every recommendation traceable to product purpose or human behavior.
+Every recommendation must be traceable to product purpose, observed evidence, platform behavior, or human context. Avoid empty praise, trend chasing, arbitrary card grids, generic gradients, and ornamental motion.
