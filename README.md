@@ -68,7 +68,7 @@ Il permet de d√©finir la direction d'un produit iOS, concevoir ou repenser des √
 Clone the repository into the current user-level Codex skills directory:
 
 ```bash
-git clone https://github.com/yhstef/ios-design-art-director.git ~/.agents/skills/ios-design-art-director
+git clone https://github.com/feiou/ios-design-art-director.git ~/.agents/skills/ios-design-art-director
 ```
 
 Some older Codex installations also scan `~/.codex/skills`. Restart Codex if the skill does not appear immediately.
